@@ -6,7 +6,7 @@ describe('Items in cart Scenarios', ()=>{
         
         loginPage.login('standard_user','secret_sauce')
         loginPage.checkMessage('Products')
-        await browser.pause(500)
+        await browser.pause(1000)
 
         for (let i = 0; i<6; i++) {
             //Adds the first item to the cart
