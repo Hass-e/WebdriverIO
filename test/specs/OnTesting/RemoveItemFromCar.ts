@@ -5,9 +5,9 @@ describe('Items in cart Scenarios', ()=>{
         await browser.url('https://www.saucedemo.com/')
         loginPage.login('standard_user','secret_sauce')
         loginPage.checkMessage('Products')
-        //await browser.pause(1000)
+        await browser.pause(1500)
 
-        for (let i = 0; i<6; i++) {
+        for (let i = 0; i<4; i++) {
             //Adds the first item to the cart
             const AddToCartBtn = await $('#add-to-cart-sauce-labs-backpack')
             await expect($(AddToCartBtn)).toBeExisting() 

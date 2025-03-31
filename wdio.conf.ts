@@ -24,7 +24,7 @@ export const config: WebdriverIO.Config = {
     //
     specs: [
         './test/specs/OnTesting/*.ts'
-        //'./test/specs/OnTesting/WrongCredentials.ts'
+        //'./test/specs/OnTesting/RemoveItemFromCar.ts'     //To run individual test only
     ],
     // Patterns to exclude.
     exclude: [
