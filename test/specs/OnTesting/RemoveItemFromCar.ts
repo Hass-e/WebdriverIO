@@ -3,10 +3,9 @@ import loginPage from "../../pageobjects/login.page";
 describe('Items in cart Scenarios', ()=>{
     it('Should login with valid credentials, add an item to cart and remove it', async () => {
         await browser.url('https://www.saucedemo.com/')
-        
         loginPage.login('standard_user','secret_sauce')
         loginPage.checkMessage('Products')
-        await browser.pause(1000)
+        //await browser.pause(1000)
 
         for (let i = 0; i<6; i++) {
             //Adds the first item to the cart
