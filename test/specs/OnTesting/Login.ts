@@ -5,5 +5,7 @@ describe('Login Test Scenarios', ()=>{
         await browser.url('https://www.saucedemo.com/')
         loginPage.login('standard_user','secret_sauce')
         loginPage.checkMessage('Products')
+
+        await browser.pause(5000)
 })
 })
