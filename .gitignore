@@ -1,5 +1,4 @@
+#Folders to ignore
 node_modules/
 allure-reports/
 junit-reports/
-
-#This is my first gitignore folder
