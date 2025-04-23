@@ -23,8 +23,10 @@ export const config: WebdriverIO.Config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './test/specs/OnTesting/*.ts'
-        //'./test/specs/OnTesting/RemoveItemFromCar.ts'     //To run individual test only
+        //'./test/specs/AdobeTests/*.ts'  
+         './test/specs/AdobeTests/Frictionless/*.ts'  
+        //'./test/specs/ReadyToRun/*.ts'
+        //'./test/specs/ToTryFirst/*.ts'     
     ],
     // Patterns to exclude.
     exclude: [
