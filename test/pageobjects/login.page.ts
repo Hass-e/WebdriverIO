@@ -17,7 +17,7 @@ class LoginPage {
     }
 
     public async checkMessage(msg: string) {
-        await expect(this.LoginMessage).toBeExisting();
+        await expect(this.LoginMessage).toBeDisplayed();
         await expect(this.LoginMessage).toHaveText(msg);
     }
 

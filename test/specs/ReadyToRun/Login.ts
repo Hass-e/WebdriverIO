@@ -1,4 +1,4 @@
-import loginPage from "../../pageobjects/login.page";
+import loginPage from "../../PageObjects/login.page";
 
 describe('Login Test Scenarios', ()=>{
     it('Should login with valid credentials', async () => {

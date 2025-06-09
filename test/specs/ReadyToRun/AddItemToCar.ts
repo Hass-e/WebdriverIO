@@ -1,4 +1,4 @@
-import loginPage from "../../pageobjects/login.page";
+import loginPage from "../../PageObjects/login.page";
 
 describe('Items in cart Scenarios', ()=>{
     it('Should login with valid credentials and add an item to the cart', async () => {
